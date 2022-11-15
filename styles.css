@@ -42,12 +42,18 @@ h2{
     margin-bottom: 5px;
     position: absolute;
     bottom: 10%;
+    font-size: 1.5em;
 }
 
 p{
     margin-top:auto;
     position: absolute;
     bottom: 5%;
+    font-size: 1.5em;
+}
+
+video{
+    background-size: 100%;
 }
 
 #Dino{
@@ -76,12 +82,34 @@ img{
     max-height: 100vh;
 }
 
-#WaveBackground{
-    min-width: 100%;
-    height: auto;
+.TextOverBackground1{
+    position: absolute;
+    top: 20%;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2em;
 }
 
-video{
-    min-width: 100%;
-    height: auto;
+.TextOverBackground2{
+    position: absolute;
+    top: 30%;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2em;
+    color: rgba(16, 55, 139, 0.26);
+}
+.TextOverBackground3{
+    position: absolute;
+    top: 40%;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(102, 37, 37);
 }
